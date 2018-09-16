@@ -7,4 +7,10 @@ function isFirstLetterUpperCase(str){
     }
 }
 
-console.log(isFirstLetterUpperCase("Askdks"));
+
+
+function is_usZipCode(str) {
+    regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
+    return regexp.test(str);
+}
+console.log(is_usZipCode("3212"));
